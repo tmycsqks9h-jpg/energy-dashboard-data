@@ -1,0 +1,5 @@
+pandas>=2.2
+requests>=2.31
+python-calamine>=0.3
+xlrd>=2.0
+yfinance>=0.2.50

@@ -1,0 +1,27 @@
+name: Refresh data
+on:
+  schedule:
+    - cron: '35 18 * * 1-5'   # 18:35 UTC Mon–Fri: after EIA's daily spot prices and the Wednesday/Thursday weekly reports
+    - cron: '35 22 * * 1-5'   # second pass for late postings
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python test_dashboard.py
+      - name: Fetch sources
+        run: python fetch_data.py --max-age-hours 0 || echo "fetch_data reported problems; the previous bundle is reused for anything that failed"
+      - name: Commit the bundle if the data changed
+        run: bash commit_if_changed.sh
