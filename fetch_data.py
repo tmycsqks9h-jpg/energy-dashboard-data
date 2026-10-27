@@ -234,7 +234,8 @@ def main() -> int:
             l = dict(log, key=key, label=label, unit=unit)
             recs = [(r['Date'], r['Value']) for r in rows if str(next((v for k, v in r.items() if k.strip() == 'Type'), '')).strip() == typ and r.get('Value') is not None]
             if not recs:
-                l.update(status='failed', error='no rows'); manifest.append(l); continue
+                sample = rows[0] if rows else None; types = sorted({str(next((v for k, v in r_.items() if k.strip() == 'Type'), '')).strip() for r_ in rows[:2000]}) if rows else []
+                l.update(status='failed', error=f'no rows for {typ}; rows={len(rows)}; types={types[:8]}; sample={json.dumps(sample)[:160] if sample else None}'); manifest.append(l); continue
             s = pd.Series([float(v) for _, v in recs], index=pd.to_datetime([d for d, _ in recs])).sort_index()
             raw[key] = s
             out[key] = {'label': label, 'unit': unit, 'freq': 'm', 'group': 'crude' if typ != 'NatGas' else 'gas', 'source': 'Alberta', 'id': f'{table}/{typ}', **pack(s, MONTHLY_START, 2, 'm')}
