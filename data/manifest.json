@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T03:16:22+00:00",
- "bundle_sha256": "def60dee18e15dcae3e42284e8e0a6ba87ca6fc9adf3b06af60710d649befc3b",
- "bundle_bytes": 841615,
+ "generated_at": "2026-11-12T23:48:24+00:00",
+ "bundle_sha256": "de1d4d887cb27e9c1fc279c6e71e86d560fe6dd94ac1c32e186e4789cf08a540",
+ "bundle_bytes": 842715,
  "series": [
   {
    "key": "wti",
@@ -13,13 +13,13 @@
    "label": "WTI crude, Cushing OK spot",
    "unit": "$/bbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:11+00:00",
-   "sha256": "d14bf481bee0d9a8f1b475d9103821f33289e2c55234711712e1231ee75e1b36",
+   "fetched_at": "2026-11-12T23:48:10+00:00",
+   "sha256": "97903eda6ea27179de72481058755a219d714130f6e746ac480da80f3084e191",
    "age_hours": 0.0,
    "eia_name": "Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",
    "first_obs": "1986-01-02",
-   "last_obs": "2026-11-03",
-   "observations": 9537
+   "last_obs": "2026-11-11",
+   "observations": 9543
   },
   {
    "key": "brent",
@@ -31,13 +31,13 @@
    "label": "Brent crude, Europe spot",
    "unit": "$/bbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:11+00:00",
-   "sha256": "37d21dc83f21529097c6681d1d9b9d0a6ad84bfde752f59e8dae44d46ad366d4",
+   "fetched_at": "2026-11-12T23:48:10+00:00",
+   "sha256": "e37f0a6f81a10627d90ad22943d6945a11ce4e08fb28eea84479037f53e31405",
    "age_hours": 0.0,
    "eia_name": "Europe Brent Spot Price FOB (Dollars per Barrel)",
    "first_obs": "1987-05-20",
-   "last_obs": "2026-11-03",
-   "observations": 9122
+   "last_obs": "2026-11-11",
+   "observations": 9128
   },
   {
    "key": "gc_gasoline",
@@ -49,13 +49,13 @@
    "label": "Gulf Coast conventional gasoline spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:11+00:00",
-   "sha256": "8b7bd82b75770243006122e3117f41a759da0dacf4b7db52f2a90a85ad48bb85",
+   "fetched_at": "2026-11-12T23:48:11+00:00",
+   "sha256": "2701f38ddfb0824ceda07ea1a8d1cb7f850e93aba8deb08dab29fcf5c8eeb7a7",
    "age_hours": 0.0,
    "eia_name": "U.S. Gulf Coast Conventional Gasoline Regular Spot Price FOB (Dollars per Gallon)",
    "first_obs": "1986-06-02",
-   "last_obs": "2026-11-03",
-   "observations": 9232
+   "last_obs": "2026-11-11",
+   "observations": 9238
   },
   {
    "key": "gc_ulsd",
@@ -67,13 +67,13 @@
    "label": "Gulf Coast ULSD spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:11+00:00",
-   "sha256": "8c6f6f5b7a87c95f2876760ebbf42d560c6990c697d7e578ba25426960638be2",
+   "fetched_at": "2026-11-12T23:48:11+00:00",
+   "sha256": "d3a059feba4661d1f48e9e01c2414258dc14c89d68dbd6e0e78e78a10483b8c5",
    "age_hours": 0.0,
    "eia_name": "U.S. Gulf Coast Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon)",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5114
+   "last_obs": "2026-11-11",
+   "observations": 5120
   },
   {
    "key": "gc_jet",
@@ -85,13 +85,13 @@
    "label": "Gulf Coast jet fuel spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:12+00:00",
-   "sha256": "f0c3f8d016eeb8b4c6dadeea5d7aa637da30e30e1275d97601ab8884cd34f3d0",
+   "fetched_at": "2026-11-12T23:48:12+00:00",
+   "sha256": "6e17240f638968bb20d29946d23d5b619366d504ca79bb52ea42917df2a1984e",
    "age_hours": 0.0,
    "eia_name": "U.S. Gulf Coast Kerosene-Type Jet Fuel Spot Price FOB (Dollars per Gallon)",
    "first_obs": "1990-04-02",
-   "last_obs": "2026-11-03",
-   "observations": 8071
+   "last_obs": "2026-11-11",
+   "observations": 8077
   },
   {
    "key": "nyh_gasoline",
@@ -103,13 +103,13 @@
    "label": "New York Harbor conventional gasoline spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:12+00:00",
-   "sha256": "08b12e7fc59badadeca2352a80d3bc4304b07313b1198b05afc7d7a1181366cf",
+   "fetched_at": "2026-11-12T23:48:12+00:00",
+   "sha256": "098d3765a7fd0d4d976e729563f44fb209cc9e28a0f6a6bce3456459226c9a7b",
    "age_hours": 0.0,
    "eia_name": "New York Harbor Conventional Gasoline Regular Spot Price FOB (Dollars per Gallon)",
    "first_obs": "1986-06-02",
-   "last_obs": "2026-11-03",
-   "observations": 9171
+   "last_obs": "2026-11-11",
+   "observations": 9177
   },
   {
    "key": "nyh_ulsd",
@@ -121,13 +121,13 @@
    "label": "New York Harbor ULSD spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:12+00:00",
-   "sha256": "3cdc2363520f49a8e0b2adccb66cad4d450a2c6e428850a2c6264b73a3804865",
+   "fetched_at": "2026-11-12T23:48:12+00:00",
+   "sha256": "4ee4a64d8c7a75d086e6ef07e35b7f5ffa4dd8d94d8c75630e341293918c15c3",
    "age_hours": 0.0,
    "eia_name": "New York Harbor Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon)",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5116
+   "last_obs": "2026-11-11",
+   "observations": 5122
   },
   {
    "key": "nyh_heating_oil",
@@ -139,13 +139,13 @@
    "label": "New York Harbor No. 2 heating oil spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:12+00:00",
-   "sha256": "0b6556f61a1d0894598d8470330c7826b570a71abc1610c6c3ec4f137b45d536",
+   "fetched_at": "2026-11-12T23:48:12+00:00",
+   "sha256": "d9a8feed788524242afb9ed01b7d55a4106de83c57918380db958865911f6eb4",
    "age_hours": 0.0,
    "eia_name": "New York Harbor No. 2 Heating Oil Spot Price FOB (Dollars per Gallon)",
    "first_obs": "1986-06-02",
-   "last_obs": "2026-11-03",
-   "observations": 8820
+   "last_obs": "2026-11-11",
+   "observations": 8826
   },
   {
    "key": "la_rbob",
@@ -157,13 +157,13 @@
    "label": "Los Angeles reformulated RBOB gasoline spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:13+00:00",
-   "sha256": "5f34d8614bfb2e89a6f1bfd05b482f6919dfd234e9bc87836e438cf446b80eb7",
+   "fetched_at": "2026-11-12T23:48:13+00:00",
+   "sha256": "b18b310762fca6cfebccde9dd6f4a6698774bb96756d4564040eb440691a63cc",
    "age_hours": 0.0,
    "eia_name": "Los Angeles Reformulated RBOB Regular Gasoline Spot Price (Dollars per Gallon)",
    "first_obs": "2003-03-17",
-   "last_obs": "2026-11-03",
-   "observations": 5640
+   "last_obs": "2026-11-11",
+   "observations": 5646
   },
   {
    "key": "la_carb_diesel",
@@ -175,13 +175,13 @@
    "label": "Los Angeles CARB ULSD spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:13+00:00",
-   "sha256": "de906a404bed9f510864c5756d28c73eb230ddf28f97f5d23aeda1e2b350cf4a",
+   "fetched_at": "2026-11-12T23:48:13+00:00",
+   "sha256": "9bb1dcaf5c5b1930689f2ee52edf7499dd679de99d41d1f7fe4b79c8068f3ece",
    "age_hours": 0.0,
    "eia_name": "Los Angeles, CA Ultra-Low Sulfur CARB Diesel Spot Price (Dollars per Gallon)",
    "first_obs": "1996-04-17",
-   "last_obs": "2026-11-03",
-   "observations": 6732
+   "last_obs": "2026-11-11",
+   "observations": 6738
   },
   {
    "key": "mb_propane",
@@ -193,13 +193,13 @@
    "label": "Mont Belvieu propane spot",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:13+00:00",
-   "sha256": "290cb56a52c8320dc497dbd464e172e16063f77f9f3e63012bf0a6900caecc34",
+   "fetched_at": "2026-11-12T23:48:14+00:00",
+   "sha256": "ff6a11ca1352201f783d89618570ec9158b9e82aafc42a845b8a65ae9ab0480d",
    "age_hours": 0.0,
    "eia_name": "Mont Belvieu, TX Propane Spot Price FOB (Dollars per Gallon)",
    "first_obs": "1992-07-09",
-   "last_obs": "2026-11-03",
-   "observations": 8146
+   "last_obs": "2026-11-11",
+   "observations": 8152
   },
   {
    "key": "henry_hub",
@@ -211,13 +211,13 @@
    "label": "Henry Hub natural gas spot",
    "unit": "$/MMBtu",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:13+00:00",
-   "sha256": "de1a4694257b3a8acc161087c268111d908b974b8963c122323fa6ba002c750b",
+   "fetched_at": "2026-11-12T23:48:14+00:00",
+   "sha256": "c8aa4eae3731fe80bc31a4c628e32d0012c343be35ed3c0e5c7829f900a95070",
    "age_hours": 0.0,
    "eia_name": "Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
    "first_obs": "1997-01-07",
-   "last_obs": "2026-11-03",
-   "observations": 5722
+   "last_obs": "2026-11-11",
+   "observations": 5728
   },
   {
    "key": "util_us",
@@ -229,13 +229,13 @@
    "label": "US refinery utilization",
    "unit": "%",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:13+00:00",
-   "sha256": "f7fdc72e6a685efa1c48c775ca3f89778c9095f3acb0f00c3a607b04e781eb0f",
+   "fetched_at": "2026-11-12T23:48:14+00:00",
+   "sha256": "bbf11d9f5bae4a92bdf476d8d64874c7c9bae31e7c61810795342b310e1749f0",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Percent Utilization of Refinery Operable Capacity (Percent)",
    "first_obs": "1990-11-02",
-   "last_obs": "2026-10-30",
-   "observations": 1879
+   "last_obs": "2026-11-06",
+   "observations": 1880
   },
   {
    "key": "util_padd3",
@@ -247,13 +247,13 @@
    "label": "Gulf Coast (PADD 3) refinery utilization",
    "unit": "%",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "f07126f9c70506c2444e41bba4ca44f187b51dc0a35e19751a1177d734a46e02",
+   "fetched_at": "2026-11-12T23:48:14+00:00",
+   "sha256": "95e9c6e2e99b6f22c42062b7e7d71999124d2c09ffac6e33dac7836df25efb75",
    "age_hours": 0.0,
    "eia_name": "Weekly Gulf Coast (PADD 3) Percent Utilization of Refinery Operable Capacity (Percent)",
    "first_obs": "2010-06-04",
-   "last_obs": "2026-10-30",
-   "observations": 857
+   "last_obs": "2026-11-06",
+   "observations": 858
   },
   {
    "key": "crude_inputs",
@@ -265,13 +265,13 @@
    "label": "US refiner net crude inputs",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "a5f9d4431755b604d0c5d086ba8369223f6d590cfbe61b8884c5e885a3c85a73",
+   "fetched_at": "2026-11-12T23:48:15+00:00",
+   "sha256": "7617bdf15d919986832080bf196ba77fa65d1544e066bf247cb310e880b00431",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Refiner Net Input of Crude Oil  (Thousand Barrels per Day)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "crude_inputs_padd3",
@@ -283,13 +283,13 @@
    "label": "Gulf Coast (PADD 3) refiner net crude inputs",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "7ce28a6a126a240a5c00c7c85073abe8c7ab6b5ac0dda79f4492ba422757ba58",
+   "fetched_at": "2026-11-12T23:48:15+00:00",
+   "sha256": "501ddffacc01760eaf6e18663700e29ca9bb2b3e8a56798b3905fa796e4cfbb4",
    "age_hours": 0.0,
    "eia_name": "Weekly Gulf Coast (PADD 3) Refiner Net Input of Crude Oil  (Thousand Barrels per Day)",
    "first_obs": "1992-09-11",
-   "last_obs": "2026-10-30",
-   "observations": 1782
+   "last_obs": "2026-11-06",
+   "observations": 1783
   },
   {
    "key": "gross_inputs",
@@ -301,13 +301,13 @@
    "label": "US gross refinery inputs",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "be45f06dff92e84e2aeffc00772f1b907aada06919d38c37c4271bd4ac9beec9",
+   "fetched_at": "2026-11-12T23:48:15+00:00",
+   "sha256": "8377903de1ed27d4740b2cbd91ef7571a2ff27db05d56ca0e0ab923a0f6b5486",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Gross Inputs into Refineries  (Thousand Barrels per Day)",
    "first_obs": "1990-01-05",
-   "last_obs": "2026-10-30",
-   "observations": 1922
+   "last_obs": "2026-11-06",
+   "observations": 1923
   },
   {
    "key": "operable_capacity",
@@ -319,13 +319,13 @@
    "label": "US operable crude distillation capacity",
    "unit": "kb/cd",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "f385848891d2ac064e08cd91d2979f80e3e8f8f0e90b55e5129d24213c8d2d07",
+   "fetched_at": "2026-11-12T23:48:15+00:00",
+   "sha256": "da273113e21297f790ef52b45685770d1228af085fd6de1a6e2eeb8830554667",
    "age_hours": 0.0,
    "eia_name": "Weekly U. S. Operable Crude Oil Distillation Capacity   (Thousand Barrels per Calendar Day)",
    "first_obs": "1990-01-05",
-   "last_obs": "2026-10-30",
-   "observations": 1922
+   "last_obs": "2026-11-06",
+   "observations": 1923
   },
   {
    "key": "gasoline_production",
@@ -337,13 +337,13 @@
    "label": "US finished motor gasoline production",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "d89bbbb046ad9919bbae4ea6a3f0bd12840b0acc3b6c5bf5e12e6bb83928e16b",
+   "fetched_at": "2026-11-12T23:48:15+00:00",
+   "sha256": "289099dd3864fd81baba72a8c6d9a63477db68954647c6c9ddd1801b602e1df6",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Refiner and Blender Adjusted Net Production of Finished Motor Gasoline  (Thousand Barrels per Day)",
    "first_obs": "1982-12-24",
-   "last_obs": "2026-10-30",
-   "observations": 2286
+   "last_obs": "2026-11-06",
+   "observations": 2287
   },
   {
    "key": "distillate_production",
@@ -355,13 +355,13 @@
    "label": "US distillate production",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "24c47fc029320bcff54b46116da19f2926c94f321892ce608477f69eae07f1b7",
+   "fetched_at": "2026-11-12T23:48:16+00:00",
+   "sha256": "9c691cd61a84f8bf67fce567bf2a953e51e306832bb5ddb49dcb7094c778d444",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Refiner and Blender Net Production of Distillate Fuel Oil  (Thousand Barrels per Day)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "crude_stocks_ex_spr",
@@ -373,13 +373,13 @@
    "label": "US commercial crude stocks (excluding SPR)",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:14+00:00",
-   "sha256": "5489a1f004087cd553a15d309bd7cab8772ab957e8a9db45655ed1ea161bec36",
+   "fetched_at": "2026-11-12T23:48:16+00:00",
+   "sha256": "1841caa0cc6f61365d0b1435b9ed90e1421cca42c4f6267585e56856b79451ba",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks excluding SPR of Crude Oil  (Thousand Barrels)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "crude_stocks_total",
@@ -391,13 +391,13 @@
    "label": "US crude stocks including SPR",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "95fd32acd24acf15acb6919d8008922ac604bbe3b79e1a3e97c535e887024aa4",
+   "fetched_at": "2026-11-12T23:48:16+00:00",
+   "sha256": "88c32d3b0cc9a6b822254098e75a151c7f5c4ae4e483129672c4d9fdfaee287b",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks of Crude Oil  (Thousand Barrels)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "spr",
@@ -409,13 +409,13 @@
    "label": "Strategic Petroleum Reserve",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "e4edc217d26ee1ead24672b7bb51e27e9a6f2aa5341f85a0116ec9ed971e86ff",
+   "fetched_at": "2026-11-12T23:48:16+00:00",
+   "sha256": "385aa34fe20ba41848d169b79b8b1cb2b0b79b7ff93a5065e610ff581fbae22f",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks of Crude Oil in SPR  (Thousand Barrels)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "cushing_stocks",
@@ -427,13 +427,13 @@
    "label": "Cushing OK crude stocks",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "1049ad7762d59651b6e44b16b4f34414dcedc28eddf148b603f8ad4965577268",
+   "fetched_at": "2026-11-12T23:48:16+00:00",
+   "sha256": "7dbe4f72766dfe8a41e736912b8e29edb04fffa725dc318d16ee9f227d2062e8",
    "age_hours": 0.0,
    "eia_name": "Weekly Cushing, OK Ending Stocks excluding SPR of Crude Oil  (Thousand Barrels)",
    "first_obs": "2004-04-09",
-   "last_obs": "2026-10-30",
-   "observations": 1178
+   "last_obs": "2026-11-06",
+   "observations": 1179
   },
   {
    "key": "gasoline_stocks",
@@ -445,13 +445,13 @@
    "label": "US total motor gasoline stocks",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "c899b608d76c08d39b5236620f209951885dc1c1aee1603344be2180220c8c31",
+   "fetched_at": "2026-11-12T23:48:16+00:00",
+   "sha256": "93e72fe043febc5f0ec54b0d45aa8052f0b4af6643b7bcebd855120502775cd3",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks of Total Gasoline  (Thousand Barrels)",
    "first_obs": "1990-01-05",
-   "last_obs": "2026-10-30",
-   "observations": 1922
+   "last_obs": "2026-11-06",
+   "observations": 1923
   },
   {
    "key": "distillate_stocks",
@@ -463,13 +463,13 @@
    "label": "US distillate stocks",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "6ec1a622589d3339818c0222209907f8c27390383e6fd320c16e5d8e4c90dfa6",
+   "fetched_at": "2026-11-12T23:48:17+00:00",
+   "sha256": "1d8c93f60e035132ce4ddcf8c07d3c47de5f851c31488b2a070c1e220efa9ba4",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "jet_stocks",
@@ -481,13 +481,13 @@
    "label": "US jet fuel stocks",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "429d9ade373d42630f7a5f84293c1c74c8a2e663d658ff76dff7ea15d6ab80c6",
+   "fetched_at": "2026-11-12T23:48:17+00:00",
+   "sha256": "c2a5f60cf210aeb18ca911490613df2bbf4115ada3c549754e020fa4e61f3c85",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks of Kerosene-Type Jet Fuel  (Thousand Barrels)",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301
+   "last_obs": "2026-11-06",
+   "observations": 2302
   },
   {
    "key": "total_stocks",
@@ -499,13 +499,13 @@
    "label": "US crude and product stocks",
    "unit": "kbbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "7a3e89504dd8fda2406010691ed9402babdba9da6e89eecc61ba62aa71ef194c",
+   "fetched_at": "2026-11-12T23:48:17+00:00",
+   "sha256": "f37015f949e2a9e67cc53cb9e294e174c1f686a9f2c411eb86fa523007aad670",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Ending Stocks of Crude Oil and Petroleum Products  (Thousand Barrels)",
    "first_obs": "1990-01-05",
-   "last_obs": "2026-10-30",
-   "observations": 1922
+   "last_obs": "2026-11-06",
+   "observations": 1923
   },
   {
    "key": "gasoline_supplied",
@@ -517,13 +517,13 @@
    "label": "US gasoline product supplied",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:15+00:00",
-   "sha256": "1ae68bcf79d03e261a39cd568eeff520580de35437fc6e5b1b02efbc53712bcb",
+   "fetched_at": "2026-11-12T23:48:18+00:00",
+   "sha256": "509f92520ab6d82c6ce08a8b4af08a42392ebcba87967eb841dfb48f0bb1d3ba",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Product Supplied of Finished Motor Gasoline  (Thousand Barrels per Day)",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1865
+   "last_obs": "2026-11-06",
+   "observations": 1866
   },
   {
    "key": "distillate_supplied",
@@ -535,13 +535,13 @@
    "label": "US distillate product supplied",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:16+00:00",
-   "sha256": "0e1b936df25d2559f3a7e8b01e13b497a4b1c0a048da09cd14b794e7d9e58afe",
+   "fetched_at": "2026-11-12T23:48:18+00:00",
+   "sha256": "e7d0ba6958ebdd2fe48db9743ec4048ab4ed514f333fa64ecec30e28c5da9291",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Product Supplied of Distillate Fuel Oil  (Thousand Barrels per Day)",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1865
+   "last_obs": "2026-11-06",
+   "observations": 1866
   },
   {
    "key": "jet_supplied",
@@ -553,13 +553,13 @@
    "label": "US jet fuel product supplied",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:16+00:00",
-   "sha256": "9e3449c14e29c15286356deea20b66611de4a317032e492a8afe931ecedf8ad6",
+   "fetched_at": "2026-11-12T23:48:18+00:00",
+   "sha256": "7da92f394db0efac046d900d8f9f5f03f3dfebbdce0df1e5799621c0a1f07302",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Product Supplied of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1865
+   "last_obs": "2026-11-06",
+   "observations": 1866
   },
   {
    "key": "products_supplied",
@@ -571,13 +571,13 @@
    "label": "US total petroleum products supplied",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:16+00:00",
-   "sha256": "5265dc03dbe30d4b2ca1f19110166ae1a17cc78825d13d8685d9c4f763690adf",
+   "fetched_at": "2026-11-12T23:48:18+00:00",
+   "sha256": "371aae2c8118cc30aa8267ca9f5f08615d2029893ceebabcbf3fe5e436567923",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Product Supplied of Petroleum Products  (Thousand Barrels per Day)",
    "first_obs": "1990-11-09",
-   "last_obs": "2026-10-30",
-   "observations": 1877
+   "last_obs": "2026-11-06",
+   "observations": 1878
   },
   {
    "key": "crude_production",
@@ -589,13 +589,13 @@
    "label": "US crude oil production",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:16+00:00",
-   "sha256": "bd830b7f66dc9247e41aff578580b611de9f5cdbe6cbf68d79bc5ba5fdddc7e3",
+   "fetched_at": "2026-11-12T23:48:18+00:00",
+   "sha256": "1836003ba81fe55f98fb01be81c0ac7340d4cc64f1f9d1600655d468b7fbe9e8",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Field Production of Crude Oil  (Thousand Barrels per Day)",
    "first_obs": "1983-01-07",
-   "last_obs": "2026-10-30",
-   "observations": 2284
+   "last_obs": "2026-11-06",
+   "observations": 2285
   },
   {
    "key": "crude_imports",
@@ -607,13 +607,13 @@
    "label": "US crude imports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:16+00:00",
-   "sha256": "c49b0bfa5aec84fe5b795b8f786f32bae528bb729ec47690322e919e0481679b",
+   "fetched_at": "2026-11-12T23:48:19+00:00",
+   "sha256": "09c1745ba2d29af55cb67797359324459a91e54784628f0b541ca9bf087829b7",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Imports of Crude Oil  (Thousand Barrels per Day)",
    "first_obs": "1990-01-05",
-   "last_obs": "2026-10-30",
-   "observations": 1922
+   "last_obs": "2026-11-06",
+   "observations": 1923
   },
   {
    "key": "crude_exports",
@@ -625,13 +625,13 @@
    "label": "US crude exports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:17+00:00",
-   "sha256": "92a710b238384f62858d38445a09273abcbb8c46b17936a438430ccb75368f2d",
+   "fetched_at": "2026-11-12T23:48:19+00:00",
+   "sha256": "8302b4576f6c23f86b313c9cc69cd973624d3cc60907af80f21de5516cfcafd0",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Exports of Crude Oil  (Thousand Barrels per Day)",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1865
+   "last_obs": "2026-11-06",
+   "observations": 1866
   },
   {
    "key": "product_exports",
@@ -643,13 +643,13 @@
    "label": "US petroleum product exports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:17+00:00",
-   "sha256": "1db93f257ada36daec8ab4d68d54aab799a17f0f7d6c50e497459b79529a901c",
+   "fetched_at": "2026-11-12T23:48:19+00:00",
+   "sha256": "642421846cefedc39f42d879b1cbff59f15b8cd2a04518a490c5ec5a65d5675e",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Exports of Total Petroleum Products  (Thousand Barrels per Day)",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1864
+   "last_obs": "2026-11-06",
+   "observations": 1865
   },
   {
    "key": "product_imports",
@@ -661,13 +661,13 @@
    "label": "US petroleum product imports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:17+00:00",
-   "sha256": "22261ad122fd212edb7a84d305c89c20c784ec222aa8e3dd6baa4b0f711bd6b7",
+   "fetched_at": "2026-11-12T23:48:19+00:00",
+   "sha256": "f975471133309874fdb1999e270d458bb54ce1ae9c7ee6e4ea1bfc73479f3fed",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Imports of Total Petroleum Products  (Thousand Barrels per Day)",
    "first_obs": "1990-01-05",
-   "last_obs": "2026-10-30",
-   "observations": 1922
+   "last_obs": "2026-11-06",
+   "observations": 1923
   },
   {
    "key": "gasoline_exports",
@@ -679,13 +679,13 @@
    "label": "US total motor gasoline exports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:17+00:00",
-   "sha256": "91bd918d6cbe131d249f4298a86d0833c44ecdef69ea5054f70c43c3ac5e9c34",
+   "fetched_at": "2026-11-12T23:48:19+00:00",
+   "sha256": "97487e471198a453a791e515ff9ff9f928deebfa457cb2d354f068a0c66358ff",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Exports of Total Motor Gasoline (Thousand Barrels per Day)",
    "first_obs": "2010-06-04",
-   "last_obs": "2026-10-30",
-   "observations": 857
+   "last_obs": "2026-11-06",
+   "observations": 858
   },
   {
    "key": "distillate_exports",
@@ -697,13 +697,13 @@
    "label": "US distillate exports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:17+00:00",
-   "sha256": "843a0da888a0ddd263aa70d1a0a33e34cec6eccfbee46d0ff0ba62fc167e85b9",
+   "fetched_at": "2026-11-12T23:48:19+00:00",
+   "sha256": "c1c4846b71cc11e04774a61e528785357638d961d3925ce49148c69e96cf6022",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Exports of Total Distillate  (Thousand Barrels per Day)",
    "first_obs": "2010-06-04",
-   "last_obs": "2026-10-30",
-   "observations": 857
+   "last_obs": "2026-11-06",
+   "observations": 858
   },
   {
    "key": "jet_exports",
@@ -715,13 +715,13 @@
    "label": "US jet fuel exports",
    "unit": "kb/d",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:17+00:00",
-   "sha256": "d0b598e6fc21afcb5a67919da9607dcc3e73c65efe5775c3fd06a38a121d4df3",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
+   "sha256": "51e2121bc3819b118bf8f3c04f982dda9d8389a39addc9939def96fd1bda578b",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Exports of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
    "first_obs": "2010-06-04",
-   "last_obs": "2026-10-30",
-   "observations": 857
+   "last_obs": "2026-11-06",
+   "observations": 858
   },
   {
    "key": "retail_gasoline",
@@ -733,7 +733,7 @@
    "label": "US regular gasoline retail price",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:18+00:00",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
    "sha256": "207177296d997a1f5a1532ecedca08786088896aef5c8e20f13a8c366094c7c8",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
@@ -751,7 +751,7 @@
    "label": "US on-highway diesel retail price",
    "unit": "$/gal",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:18+00:00",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
    "sha256": "b1c95a103bec90dfd09680a30360b79ea5ac1b2792fb25e23c093097d75c51f9",
    "age_hours": 0.0,
    "eia_name": "Weekly U.S. No 2 Diesel Retail Prices  (Dollars per Gallon)",
@@ -769,7 +769,7 @@
    "label": "Lower 48 working gas in storage",
    "unit": "Bcf",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:18+00:00",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
    "sha256": "0dae5d928e7ed13d82b31ae0754e6e4c6212e36f4d3eecfe6fc3b736ac280140",
    "age_hours": 0.0,
    "eia_name": "Weekly Lower 48 States Natural Gas Working Underground Storage (Billion Cubic Feet)",
@@ -787,7 +787,7 @@
    "label": "US rotary rigs in operation (EIA monthly)",
    "unit": "rigs",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:18+00:00",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
    "sha256": "0584aed5f7ea2b223c59e2e0ab1dbb11a9973a9cf3999599fd3386a046683e7c",
    "age_hours": 0.0,
    "eia_name": "U.S. Crude Oil and Natural Gas Rotary Rigs in Operation (Count)",
@@ -805,7 +805,7 @@
    "label": "Western Canadian Select, monthly average",
    "unit": "$/bbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:18+00:00",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
    "sha256": "edbe20122b0b3770b3ca69bfebe6395cfa9ec7ee077e741ae10e7b88ed62b64d",
    "age_hours": 0.0,
    "first_obs": "2005-01-01",
@@ -822,7 +822,7 @@
    "label": "WTI, monthly average (Alberta source)",
    "unit": "$/bbl",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:18+00:00",
+   "fetched_at": "2026-11-12T23:48:20+00:00",
    "sha256": "edbe20122b0b3770b3ca69bfebe6395cfa9ec7ee077e741ae10e7b88ed62b64d",
    "age_hours": 0.0,
    "first_obs": "1986-01-01",
@@ -839,7 +839,7 @@
    "label": "Alberta natural gas reference price",
    "unit": "C$/GJ",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:19+00:00",
+   "fetched_at": "2026-11-12T23:48:21+00:00",
    "sha256": "7f8fb10bd934f4a597afca5325fc4edccc5f00cfce45332068bb9727cdb58d58",
    "age_hours": 0.0,
    "first_obs": "1988-01-01",
@@ -856,12 +856,12 @@
    "label": "Canadian dollars per US dollar",
    "unit": "C$/US$",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:20+00:00",
-   "sha256": "c7e85fe30eb9695dbf3e7c9aebd5694f70502b442ab867519aa98e31e6bf1c6e",
+   "fetched_at": "2026-11-12T23:48:22+00:00",
+   "sha256": "4b50ca01a4e098c58d6c9df330fab86a0fa071e3d934221e989ef771e91dc89b",
    "age_hours": 0.0,
    "first_obs": "2017-01-03",
-   "last_obs": "2026-11-10",
-   "observations": 2459
+   "last_obs": "2026-11-12",
+   "observations": 2460
   },
   {
    "key": "brent_wti",
@@ -871,8 +871,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "1987-05-20",
-   "last_obs": "2026-11-03",
-   "observations": 8430,
+   "last_obs": "2026-11-11",
+   "observations": 8436,
    "status": "derived"
   },
   {
@@ -895,8 +895,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5004,
+   "last_obs": "2026-11-11",
+   "observations": 5010,
    "status": "derived"
   },
   {
@@ -907,8 +907,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5004,
+   "last_obs": "2026-11-11",
+   "observations": 5010,
    "status": "derived"
   },
   {
@@ -919,8 +919,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5004,
+   "last_obs": "2026-11-11",
+   "observations": 5010,
    "status": "derived"
   },
   {
@@ -931,8 +931,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5004,
+   "last_obs": "2026-11-11",
+   "observations": 5010,
    "status": "derived"
   },
   {
@@ -943,8 +943,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "1990-04-02",
-   "last_obs": "2026-11-03",
-   "observations": 7593,
+   "last_obs": "2026-11-11",
+   "observations": 7599,
    "status": "derived"
   },
   {
@@ -955,8 +955,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5025,
+   "last_obs": "2026-11-11",
+   "observations": 5031,
    "status": "derived"
   },
   {
@@ -967,8 +967,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2003-03-19",
-   "last_obs": "2026-11-03",
-   "observations": 5246,
+   "last_obs": "2026-11-11",
+   "observations": 5252,
    "status": "derived"
   },
   {
@@ -979,8 +979,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "1986-06-02",
-   "last_obs": "2026-11-03",
-   "observations": 8484,
+   "last_obs": "2026-11-11",
+   "observations": 8490,
    "status": "derived"
   },
   {
@@ -991,8 +991,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5113,
+   "last_obs": "2026-11-11",
+   "observations": 5119,
    "status": "derived"
   },
   {
@@ -1003,8 +1003,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2003-03-17",
-   "last_obs": "2026-11-03",
-   "observations": 5490,
+   "last_obs": "2026-11-11",
+   "observations": 5496,
    "status": "derived"
   },
   {
@@ -1039,8 +1039,8 @@
    "unit": "$/bbl",
    "frequency": "daily",
    "first_obs": "2006-06-14",
-   "last_obs": "2026-11-03",
-   "observations": 5069,
+   "last_obs": "2026-11-11",
+   "observations": 5075,
    "status": "derived"
   },
   {
@@ -1075,8 +1075,8 @@
    "unit": "days",
    "frequency": "weekly",
    "first_obs": "1982-08-20",
-   "last_obs": "2026-10-30",
-   "observations": 2301,
+   "last_obs": "2026-11-06",
+   "observations": 2302,
    "status": "derived"
   },
   {
@@ -1087,8 +1087,8 @@
    "unit": "days",
    "frequency": "weekly",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1865,
+   "last_obs": "2026-11-06",
+   "observations": 1866,
    "status": "derived"
   },
   {
@@ -1099,8 +1099,8 @@
    "unit": "days",
    "frequency": "weekly",
    "first_obs": "1991-02-08",
-   "last_obs": "2026-10-30",
-   "observations": 1865,
+   "last_obs": "2026-11-06",
+   "observations": 1866,
    "status": "derived"
   },
   {
@@ -1111,8 +1111,8 @@
    "unit": "kb/d",
    "frequency": "weekly",
    "first_obs": "1991-03-01",
-   "last_obs": "2026-10-30",
-   "observations": 1862,
+   "last_obs": "2026-11-06",
+   "observations": 1863,
    "status": "derived"
   },
   {
@@ -1123,8 +1123,8 @@
    "unit": "kb/d",
    "frequency": "weekly",
    "first_obs": "1991-03-01",
-   "last_obs": "2026-10-30",
-   "observations": 1862,
+   "last_obs": "2026-11-06",
+   "observations": 1863,
    "status": "derived"
   },
   {
@@ -1135,8 +1135,8 @@
    "unit": "kb/d",
    "frequency": "weekly",
    "first_obs": "1991-03-01",
-   "last_obs": "2026-10-30",
-   "observations": 1862,
+   "last_obs": "2026-11-06",
+   "observations": 1863,
    "status": "derived"
   },
   {
@@ -1147,8 +1147,8 @@
    "unit": "kb/d",
    "frequency": "weekly",
    "first_obs": "1990-11-30",
-   "last_obs": "2026-10-30",
-   "observations": 1874,
+   "last_obs": "2026-11-06",
+   "observations": 1875,
    "status": "derived"
   },
   {
@@ -1160,12 +1160,12 @@
    "label": "Equity prices for performance baskets and returns table",
    "unit": "dividend-adjusted close; published only as indexed levels and percentage returns",
    "status": "fresh",
-   "fetched_at": "2026-11-12T03:16:22+00:00",
-   "sha256": "032e46315263e7300920f85bfb0d357343b10bd1f68d05eeadd173176afed30c",
+   "fetched_at": "2026-11-12T23:48:24+00:00",
+   "sha256": "13b007ac9b6c1f491421fafe991f3b2abc15163128e55bb09ba36dc6dfbef0b2",
    "snapshot": "cache/equities_daily.csv (local, not published)",
    "first_obs": "2016-01-04",
-   "last_obs": "2026-11-11",
-   "observations": 2731,
+   "last_obs": "2026-11-12",
+   "observations": 2732,
    "excluded": [
     "CTRA"
    ],
